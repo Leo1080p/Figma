@@ -1,0 +1,93 @@
+body{
+    background-color:white ;
+}
+
+h1{
+    color: var(--Colour-Logo-Primary, #37447E);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Bold 26 */
+    font-family: Roboto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 38px; /* 146.154% */
+}
+
+#Header{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+#Header button{
+    height: 45px;
+    margin-top: 10px;
+}
+
+h3{
+    width: 539px;
+    height: 132px;
+    margin-left: 81px;
+    margin-top: 150px;
+    color: var(--Colour-Main-Blue-900, #091133);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Medium 50 */
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 66px; /* 132% */
+    letter-spacing: 1px;
+   
+}
+
+p{
+    width: 539px;
+    margin-left: 81px;
+    color: var(--Colour-Main-Blue-500, #505F98);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Regular 18 */
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+img{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.bouton_gauche{
+    margin-left: 81px;
+}
+.bouton_droit{
+    margin-left: 25px;
+    background-color: white;
+    color: black;
+}
+button:not(.bouton_droit){
+    background-color: black;
+    color: white;
+    z-index: 1000;
+}
+.important{
+    z-index: 1000;
+    position: absolute;
+    top: 100px;
+    right: 0px;
+}
+
+button{
+    height: 40px;
+    width: 175px;
+}
